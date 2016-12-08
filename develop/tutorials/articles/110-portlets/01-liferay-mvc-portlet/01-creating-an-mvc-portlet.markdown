@@ -268,7 +268,7 @@ determine if there are any Guestbooks that can be displayed. If not, a Guestbook
 should be created by default. If there are Guestbooks in the database, the ID
 that's first in the list retrieved via the `getGuestbooks` method should be
 displayed. This is accomplished by passing the appropriate ID to the
-`RenderRequest` using the `setAttirbute` method. Since this logic should be
+`RenderRequest` using the `setAttribute` method. Since this logic should be
 executed before the default `render` method, the method concludes by calling
 `super.render`.
 
